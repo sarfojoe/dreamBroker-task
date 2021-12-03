@@ -1,5 +1,5 @@
 import React from "react";
-import featureimage from "../Assests/db-laptop.jpg";
+import featureimage from "../Assests/nian1.webp";
 const Features = () => {
   return (
     <div id="features">
