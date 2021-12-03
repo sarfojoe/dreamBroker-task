@@ -9,12 +9,20 @@ const Header = () => {
         <h1>
           DreamBroker<span>Live it. </span>Live.
         </h1>
-        <p>
+        <p className="details">
           We revolutionise communication in a fun, natural and productive way,
           with video.
         </p>
-        <div></div>
+        <div className="header-btns">
+          <a href="#" className="cv-btn">
+            Book a Demo
+          </a>
+          <a href="#" className="cv-btn1">
+            Watch a Video
+          </a>
+        </div>
       </div>
+      <div className="arrow"></div>
     </div>
   );
 };
