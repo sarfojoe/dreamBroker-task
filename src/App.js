@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Components/Header";
 import Features from "./Components/Features";
 import Services from "./Components/Services";
+import Subscribe from "./Components/Subscribe";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Features />
       <Services />
+      <Subscribe />
     </div>
   );
 }
