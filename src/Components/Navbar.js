@@ -15,13 +15,13 @@ const Navbar = () => {
         </label>
         <ul className="menu">
           <li>
-            <Link to="main" className="active" smooth={true} duration={1000}>
+            <Link to="main" smooth={true} duration={1000}>
               Home
             </Link>
           </li>
           <li>
             <Link to="features" smooth={true} duration={1000}>
-              Features
+              About Us
             </Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="subscribe" smooth={true} duration={1000}>
-              Subscribe
+              Projects
             </Link>
           </li>
           <li>

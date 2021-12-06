@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import ReactPlayer from "react-player";
 
 const Header = () => {
   return (
@@ -14,11 +15,11 @@ const Header = () => {
           with video.
         </p>
         <div className="header-btns">
-          <a href="#" className="cv-btn">
+          {/* <a href="#" className="cv-btn">
             Book a Demo
-          </a>
-          <a href="#" className="cv-btn1">
-            Watch a Video
+          </a> */}
+          <a href="https://www.youtube.com/watch?v=2xhyq7phj3Q" target="_blank">
+            <button className="cv-btn1">Watch a Video</button>
           </a>
         </div>
       </div>
