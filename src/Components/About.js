@@ -37,7 +37,6 @@ const About = () => {
           repellendus? Quasi illo culpa numquam iste quaerat eum vel nemo
           doloribus ipsa!
         </p>
-        <button>View More Features</button>
       </div>
     </div>
   );

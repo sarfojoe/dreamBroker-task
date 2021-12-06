@@ -33,12 +33,14 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="#">Contact</Link>
+            <Link to="contact" smooth={true} duration={1000}>
+              Contact Us
+            </Link>
           </li>
         </ul>
-        <Link to="#" className="hey">
+        {/* <Link to="#" className="hey">
           To App
-        </Link>
+        </Link> */}
       </nav>
     </div>
   );
