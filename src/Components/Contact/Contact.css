@@ -45,7 +45,7 @@ textarea:focus {
 
 .form>button {
     padding: 20px;
-    background-color: rgb(214, 129, 200);
+    background-color: rgb(216, 158, 206);
     font-weight: 500;
     font-size: 20px;
     border-radius: 3px;
@@ -58,5 +58,5 @@ textarea:focus {
 }
 
 .form>button:hover {
-    background-color: rgb(201, 54, 181);
+    background-color: #d0ff00;
 }

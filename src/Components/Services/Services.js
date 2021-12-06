@@ -1,7 +1,4 @@
 import React from "react";
-import Box from "./Box";
-import image1 from "../Assests/nian4.jpg";
-import image2 from "../Assests/nian3.jpg";
 import "./Service.css";
 
 const Services = () => {
@@ -12,8 +9,6 @@ const Services = () => {
         <p> Here are some services provided by DreanBroker </p>
       </div>
       <div className="container">
-        {/* <Box image={image1} alte="image1" button="LOCATION" />
-        <Box image={image2} alte="image2" button="VIDEO MESSAGE" /> */}
         <div className="row">
           <div className="col__3">
             <div className="service__box pointer">

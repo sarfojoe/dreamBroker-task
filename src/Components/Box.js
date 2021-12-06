@@ -11,7 +11,7 @@ const Box = (props) => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.Repellat
           facere optio quae magnam velit rerum.Porro voluptates eaque
           accusantium voluptas vitae excepturi!A ab tempora mollitia, sunt
-          officiis neque repellat.{" "}
+          officiis neque repellat.
         </p>
         <a href="#" className="cv-btn">
           {props.button}

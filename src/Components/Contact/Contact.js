@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
-import { db } from "./firebase";
+import { db } from "../firebase";
 
 const Contact = () => {
   const [name, setName] = useState("");
