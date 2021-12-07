@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <form className="form" id="contact" onSubmit={handleSubmit}>
-      <h1>Contact Us 🤳</h1>
+      <h1 className="contacts">Contact Us 🤳</h1>
 
       <label>Name</label>
       <input

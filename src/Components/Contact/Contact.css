@@ -9,26 +9,21 @@
 
 .form>h1 {
     margin-bottom: 30px;
+    color: #d0ff00;
+    font-size: 40px;
 }
 
 .form>input,
 textarea {
     padding: 20px;
     border-radius: 3px;
-    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
     margin-bottom: 20px;
     border: 1px solid lightgray;
-    /* border: none; */
     background: #fff;
     font-size: 16px;
     color: rgb(0, 0, 32);
     outline: none;
     width: 500px;
-}
-
-.form>input:focus,
-textarea:focus {
-    border: 1px solid rgb(0, 0, 196);
 }
 
 .form>textarea {
@@ -39,17 +34,19 @@ textarea:focus {
 
 .form>label {
     padding-bottom: 10px;
-    color: #fff;
+    color: #d0ff00;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .form>button {
     padding: 20px;
-    background-color: rgb(216, 158, 206);
+    background-color: #d9e4ac;
     font-weight: 500;
     font-size: 20px;
     border-radius: 3px;
-    color: #fff;
+    color: rgb(27, 26, 26);
+    font-size: 30px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     margin-top: 10px;
@@ -59,4 +56,19 @@ textarea:focus {
 
 .form>button:hover {
     background-color: #d0ff00;
+}
+
+@media screen and (max-width: 480px) {
+    .form>textarea,
+    .form>input {
+        width: 90%;
+    }
+    .form>h1 {
+        font-size: 30px;
+    }
+    .form>button {
+        font-size: 15px;
+        width: 150px;
+        height: 50px;
+    }
 }

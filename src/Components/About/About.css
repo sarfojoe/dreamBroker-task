@@ -33,10 +33,21 @@
     color: #b4b4b4;
 }
 
-.features-model {
-    width: 50%;
-}
-
-.features-model img {
-    width: 500px;
+@media screen and (max-width: 970px) {
+    #features {
+        display: block;
+        height: inherit;
+    }
+    .features-text {
+        width: 100%;
+    }
+    .service__box {
+        height: 400px;
+    }
+    .about__vid {
+        width: 100% !important;
+    }
+    .header-name {
+        width: 100%;
+    }
 }

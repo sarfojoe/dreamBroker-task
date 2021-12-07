@@ -1,9 +1,10 @@
-h1.heading {
+.s-heading h1 {
     font-size: 60px;
     text-align: center;
     font-family: Poppins, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 10px;
+    color: #d0ff00;
 }
 
 p.heading.p__color {
@@ -92,5 +93,9 @@ h1.service__text {
 @media only screen and (max-width: 425px) {
     .h1.heading {
         font-size: 20px;
+    }
+    .s-heading>h1 {
+        font-weight: 300;
+        font-size: 45px;
     }
 }
